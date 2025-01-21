@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "distraction-free-writing",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "This is a plugin for Obsidian (https://obsidian.md) for distraction-free writing.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
