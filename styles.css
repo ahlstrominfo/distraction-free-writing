@@ -1,8 +1,16 @@
-/*
+/* Hide sidebars, ribbon, status bar when .distraction-free-mode is active */
+.distraction-free-mode .workspace-ribbon,
+.distraction-free-mode .workspace-split.mod-left-split,
+.distraction-free-mode .workspace-split.mod-right-split,
+.distraction-free-mode .status-bar, 
+.distraction-free-mode .workspace-tab-header-container,
+.distraction-free-mode .view-header,
+.distraction-free-mode .embedded-backlinks
+{
+  display: none !important;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
+.distraction-free-mode .workspace-leaf-content {
+  margin: calc(var(--header-height) - 1px) auto 0 !important;
+  max-width: 800px;
+}
